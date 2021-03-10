@@ -1,0 +1,14 @@
+.app-wrapper {
+    width: 1140px;
+    margin:auto;
+
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: 
+        "header header"
+        "nav posts";
+    
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
