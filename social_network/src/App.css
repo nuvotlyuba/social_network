@@ -7,8 +7,13 @@
     grid-template-rows: 60px 1fr;
     grid-template-areas: 
         "header header"
-        "nav posts";
+        "nav pages";
     
     grid-row-gap: 10px;
     grid-column-gap: 10px;
+}
+.pages{
+    grid-area: pages;
+    background-color:  #E1EAEE;
+
 }

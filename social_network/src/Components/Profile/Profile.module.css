@@ -1,6 +1,6 @@
 .profile{
-    grid-area: posts;
-    background-color: #E1EAEE;;
+    /* grid-area: pages; */
+    background-color: #E1EAEE;
 }
 .box {
     background-color: pink;

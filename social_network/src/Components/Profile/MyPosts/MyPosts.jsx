@@ -9,7 +9,8 @@ const MyPosts = () => {
             
             <button>Post!</button>
         </div>
-        <Post props={"Hello!"} />
+        <Post message="Hello, what the fucking shit?" />
+        <Post message="Please, stop the planet!" />
         
         </>
     )
