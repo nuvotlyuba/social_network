@@ -11,10 +11,10 @@ import {BrowserRouter, Route} from "react-router-dom";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="app-wrapper">
+      <div className="appWrapper">
         <Header/>
         <Navbar />
-        <div className="pages">
+        <div className="pageWrapper">
           <Route path ="/dialogs" component={Dialogs} />
           <Route path="/profile" component={Profile} />
           <Route path="/friends" component={Friends} />

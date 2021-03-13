@@ -1,0 +1,16 @@
+.boxBanner {
+    background-color: pink;
+}
+.avatar {
+    margin: 10px 0 30px 10px;
+}
+.avatar img {
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.userInfo {
+    display: flex;
+}
+.description {
+    margin-left: 30px;
+}
