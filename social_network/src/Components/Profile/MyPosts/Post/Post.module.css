@@ -3,4 +3,19 @@
 }
 .post img {
     border-radius: 50px;
+
+}
+.postItem {
+    display: flex;
+}
+.message{
+    padding:30px 0 0 20px;
+}
+.like {
+    padding: 15px
+}
+button{
+    background-color: black;
+    color:pink;
+    margin: 10px;
 }

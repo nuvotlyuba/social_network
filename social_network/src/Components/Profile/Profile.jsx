@@ -3,13 +3,15 @@ import MyPosts from "./MyPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo"
 
 
-const Posts = () => {
+const Profile = (props) => {
+
   return (
     <div className={classes.profile}>
       <ProfileInfo />
-      <MyPosts />
+
+      <MyPosts posts={props.state.posts}  />
     </div>
   );
 };
 
-export default Posts;
+export default Profile;

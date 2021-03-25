@@ -2,14 +2,14 @@
     grid-area: nav;
     background-color: #E1EAEE;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .nav a {
     text-decoration: none;
-  
 }
 .item a {
     color: black;
-    
 }
 .item a.active {
     color:pink;
